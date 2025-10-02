@@ -1,0 +1,179 @@
+.main {
+  position: relative;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section1 {
+  width: 100%;
+  height: 30px;
+  background-image: linear-gradient(to left, yellow, green, red);
+  text-align: center;
+  place-content: center;
+  color: white;
+  font-weight: 800;
+}
+ul {
+  display: grid;
+  background-color: rgb(141, 128, 205);
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 0;
+}
+.li {
+  background-color: black;
+  display: inline;
+  color: white;
+  width: 130px;
+  height: 30px;
+  text-align: center;
+  place-content: center;
+  border-radius: 9px;
+  border: 1px solid white;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px black;
+}
+.section3 {
+  position: relative;
+}
+.box1 {
+  position: relative;
+  width: 100%;
+  background-color: rgb(112, 58, 162);
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.p1 {
+  width: 30%;
+  height: 180px;
+  text-wrap: wrap;
+  text-align: center;
+  background-image: linear-gradient(rgb(79, 26, 255), #ff7490);
+  box-shadow: 3px 3px 9px black inset, -3px -3px 19px black inset;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+}
+.p1::first-line {
+  color: rgb(11, 255, 198);
+  font-size: 20px;
+  text-align: left;
+  font-weight: 800;
+  text-shadow: 2px 2px 3px black;
+}
+.p1::first-letter {
+  color: rgb(255, 243, 14);
+  font-size: 25px;
+  padding-right: 3px;
+}
+.box4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  background-color: blue;
+  width: 400px;
+  background-image: linear-gradient(blue,red,gray);
+}
+.p11 {
+  text-align: center;
+  place-content: center;
+  width: 100%;
+}
+.section4 {
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgb(71, 14, 117);
+  color: white;
+  text-align: center;
+  place-content: center;
+}
+.section5 {
+  width: 100%;
+  height: 200px;
+  background-image: radial-gradient(aqua, red, blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3px;
+}
+.box5 {
+  text-align: center;
+  place-content: center;
+  background-color: rgb(15, 15, 107);
+  box-shadow: 3px 3px 8px black;
+  border: 1px solid white;
+  border-radius: 9px;
+  width: 20%;
+  height: 130px;
+  padding: 15px;
+  color: white;
+  line-height: 25px;
+}
+.h {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(5, 117, 80);
+  text-align: center;
+  grid-column: 1/5;
+  place-content: center;
+}
+.section6 {
+  display: grid;
+  border: 2px solid black;
+  margin-top: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  /* width: 1250px; */
+  height: auto;
+  color: white;
+}
+.one,
+.two,
+.three {
+  background-color: rgb(62, 10, 97);
+  color: white;
+  width: auto;
+  padding: 5px;
+  text-align: center;
+  place-content: center;
+  padding: 20px 5px;
+}
+.four {
+  background-color: black;
+  color: white;
+  height: auto;
+  width: auto;
+  text-decoration: underline;
+  grid-column-start: 4;
+  grid-row: 2 / 8;
+  padding-left: 40px;
+  padding-top: 20px;
+  line-height: 22px;
+}
+.five{
+    background-color: #ff7490;
+    grid-column: 1/4;
+    /* height: 90px; */
+    text-align: center;
+    place-content: center;
+    padding: 15px 10px;
+    font-size: 18px;
+
+}
+.last{
+    width: 100%;
+    background-color: rgb(138, 12, 157);
+    grid-column: 1/4;
+    height: 40px;
+    color: white;
+    text-align: center;
+    place-content: center;
+}
